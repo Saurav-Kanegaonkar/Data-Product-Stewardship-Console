@@ -1,0 +1,81 @@
+check_id,product_id,source_system,check_type,threshold,observed_value,result,remediation_owner
+CHK-DP001-freshness_sla,DP001,identity_graph,freshness_sla,95 percent,warning,Pass,Analytics Product
+CHK-DP001-completeness,DP001,data_warehouse,completeness,95 percent,pass,Warning,Data Engineering
+CHK-DP001-schema_drift,DP001,data_warehouse,schema_drift,named accountable owner,1 exception,Warning,Data Engineering
+CHK-DP001-key_uniqueness,DP001,club_crm,key_uniqueness,98 percent,1 exception,Pass,League Operations
+CHK-DP001-lineage_owner,DP001,data_warehouse,lineage_owner,95 percent,2 exceptions,Warning,Analytics Product
+CHK-DP002-freshness_sla,DP002,game_event_feed,freshness_sla,98 percent,2 exceptions,Pass,Fan Data Platform
+CHK-DP002-completeness,DP002,official_stats,completeness,95 percent,2 exceptions,Pass,Analytics Product
+CHK-DP002-schema_drift,DP002,official_stats,schema_drift,named accountable owner,pass,Pass,Analytics Product
+CHK-DP002-key_uniqueness,DP002,official_stats,key_uniqueness,95 percent,pass,Fail,Analytics Product
+CHK-DP002-lineage_owner,DP002,data_warehouse,lineage_owner,zero breaking changes,warning,Pass,Data Engineering
+CHK-DP003-freshness_sla,DP003,fan_identity,freshness_sla,named accountable owner,2 exceptions,Warning,League Operations
+CHK-DP003-completeness,DP003,fan_identity,completeness,95 percent,1 exception,Pass,Club Success
+CHK-DP003-schema_drift,DP003,app_events,schema_drift,95 percent,owner missing,Fail,League Operations
+CHK-DP003-key_uniqueness,DP003,app_events,key_uniqueness,zero breaking changes,2 exceptions,Pass,League Operations
+CHK-DP003-lineage_owner,DP003,email_platform,lineage_owner,95 percent,owner missing,Pass,Business Intelligence
+CHK-DP004-freshness_sla,DP004,data_warehouse,freshness_sla,98 percent,2 exceptions,Pass,Business Intelligence
+CHK-DP004-completeness,DP004,streaming_events,completeness,named accountable owner,pass,Pass,Club Success
+CHK-DP004-schema_drift,DP004,streaming_events,schema_drift,zero breaking changes,1 exception,Pass,Data Engineering
+CHK-DP004-key_uniqueness,DP004,broadcast_logs,key_uniqueness,98 percent,owner missing,Warning,League Operations
+CHK-DP004-lineage_owner,DP004,broadcast_logs,lineage_owner,zero breaking changes,owner missing,Pass,League Operations
+CHK-DP005-freshness_sla,DP005,campaign_delivery,freshness_sla,95 percent,2 exceptions,Fail,League Operations
+CHK-DP005-completeness,DP005,data_warehouse,completeness,98 percent,2 exceptions,Fail,Fan Data Platform
+CHK-DP005-schema_drift,DP005,campaign_delivery,schema_drift,named accountable owner,pass,Pass,Club Success
+CHK-DP005-key_uniqueness,DP005,sponsor_assets,key_uniqueness,98 percent,pass,Pass,Club Success
+CHK-DP005-lineage_owner,DP005,salesforce,lineage_owner,zero breaking changes,warning,Fail,Club Success
+CHK-DP006-freshness_sla,DP006,data_warehouse,freshness_sla,95 percent,1 exception,Pass,Analytics Product
+CHK-DP006-completeness,DP006,ticketing_platform,completeness,95 percent,2 exceptions,Pass,Data Engineering
+CHK-DP006-schema_drift,DP006,club_crm,schema_drift,named accountable owner,owner missing,Pass,Fan Data Platform
+CHK-DP006-key_uniqueness,DP006,ticketing_platform,key_uniqueness,named accountable owner,2 exceptions,Warning,Business Intelligence
+CHK-DP006-lineage_owner,DP006,secondary_market,lineage_owner,95 percent,pass,Pass,Data Engineering
+CHK-DP007-freshness_sla,DP007,workflow_tool,freshness_sla,named accountable owner,pass,Warning,Business Intelligence
+CHK-DP007-completeness,DP007,workflow_tool,completeness,zero breaking changes,warning,Pass,League Operations
+CHK-DP007-schema_drift,DP007,data_warehouse,schema_drift,95 percent,pass,Fail,League Operations
+CHK-DP007-key_uniqueness,DP007,medical_event_feed,key_uniqueness,named accountable owner,pass,Pass,Analytics Product
+CHK-DP007-lineage_owner,DP007,data_warehouse,lineage_owner,98 percent,pass,Warning,Analytics Product
+CHK-DP008-freshness_sla,DP008,inventory_feed,freshness_sla,named accountable owner,warning,Pass,Club Success
+CHK-DP008-completeness,DP008,loyalty_system,completeness,named accountable owner,warning,Pass,Data Engineering
+CHK-DP008-schema_drift,DP008,data_warehouse,schema_drift,95 percent,owner missing,Pass,Club Success
+CHK-DP008-key_uniqueness,DP008,data_warehouse,key_uniqueness,zero breaking changes,warning,Fail,Business Intelligence
+CHK-DP008-lineage_owner,DP008,loyalty_system,lineage_owner,98 percent,pass,Fail,League Operations
+CHK-DP009-freshness_sla,DP009,identity_graph,freshness_sla,95 percent,warning,Pass,Data Engineering
+CHK-DP009-completeness,DP009,identity_graph,completeness,95 percent,warning,Pass,Business Intelligence
+CHK-DP009-schema_drift,DP009,data_warehouse,schema_drift,zero breaking changes,owner missing,Pass,Data Engineering
+CHK-DP009-key_uniqueness,DP009,identity_graph,key_uniqueness,zero breaking changes,pass,Warning,Fan Data Platform
+CHK-DP009-lineage_owner,DP009,identity_graph,lineage_owner,98 percent,warning,Pass,League Operations
+CHK-DP010-freshness_sla,DP010,game_event_feed,freshness_sla,named accountable owner,1 exception,Warning,League Operations
+CHK-DP010-completeness,DP010,official_stats,completeness,95 percent,warning,Pass,Fan Data Platform
+CHK-DP010-schema_drift,DP010,data_warehouse,schema_drift,named accountable owner,pass,Pass,League Operations
+CHK-DP010-key_uniqueness,DP010,game_event_feed,key_uniqueness,named accountable owner,owner missing,Warning,Analytics Product
+CHK-DP010-lineage_owner,DP010,game_event_feed,lineage_owner,zero breaking changes,1 exception,Pass,Analytics Product
+CHK-DP011-freshness_sla,DP011,app_events,freshness_sla,zero breaking changes,warning,Fail,Business Intelligence
+CHK-DP011-completeness,DP011,app_events,completeness,named accountable owner,1 exception,Pass,Business Intelligence
+CHK-DP011-schema_drift,DP011,app_events,schema_drift,zero breaking changes,2 exceptions,Warning,Business Intelligence
+CHK-DP011-key_uniqueness,DP011,data_warehouse,key_uniqueness,95 percent,warning,Warning,League Operations
+CHK-DP011-lineage_owner,DP011,email_platform,lineage_owner,98 percent,owner missing,Pass,Business Intelligence
+CHK-DP012-freshness_sla,DP012,streaming_events,freshness_sla,zero breaking changes,pass,Warning,Business Intelligence
+CHK-DP012-completeness,DP012,data_warehouse,completeness,zero breaking changes,warning,Fail,Business Intelligence
+CHK-DP012-schema_drift,DP012,data_warehouse,schema_drift,zero breaking changes,warning,Warning,League Operations
+CHK-DP012-key_uniqueness,DP012,streaming_events,key_uniqueness,zero breaking changes,pass,Pass,League Operations
+CHK-DP012-lineage_owner,DP012,streaming_events,lineage_owner,zero breaking changes,owner missing,Warning,Business Intelligence
+CHK-DP013-freshness_sla,DP013,data_warehouse,freshness_sla,98 percent,owner missing,Pass,Business Intelligence
+CHK-DP013-completeness,DP013,salesforce,completeness,zero breaking changes,owner missing,Warning,Fan Data Platform
+CHK-DP013-schema_drift,DP013,sponsor_assets,schema_drift,named accountable owner,owner missing,Pass,Fan Data Platform
+CHK-DP013-key_uniqueness,DP013,campaign_delivery,key_uniqueness,95 percent,1 exception,Pass,League Operations
+CHK-DP013-lineage_owner,DP013,data_warehouse,lineage_owner,98 percent,pass,Pass,Fan Data Platform
+CHK-DP014-freshness_sla,DP014,data_warehouse,freshness_sla,95 percent,1 exception,Pass,Business Intelligence
+CHK-DP014-completeness,DP014,ticketing_platform,completeness,98 percent,warning,Warning,League Operations
+CHK-DP014-schema_drift,DP014,data_warehouse,schema_drift,named accountable owner,owner missing,Pass,Analytics Product
+CHK-DP014-key_uniqueness,DP014,data_warehouse,key_uniqueness,98 percent,warning,Pass,Club Success
+CHK-DP014-lineage_owner,DP014,data_warehouse,lineage_owner,zero breaking changes,1 exception,Warning,Business Intelligence
+CHK-DP015-freshness_sla,DP015,data_warehouse,freshness_sla,named accountable owner,warning,Fail,Business Intelligence
+CHK-DP015-completeness,DP015,tracking_provider,completeness,named accountable owner,1 exception,Pass,League Operations
+CHK-DP015-schema_drift,DP015,data_warehouse,schema_drift,98 percent,pass,Warning,Analytics Product
+CHK-DP015-key_uniqueness,DP015,tracking_provider,key_uniqueness,named accountable owner,owner missing,Warning,Club Success
+CHK-DP015-lineage_owner,DP015,data_warehouse,lineage_owner,98 percent,owner missing,Pass,League Operations
+CHK-DP016-freshness_sla,DP016,loyalty_system,freshness_sla,zero breaking changes,2 exceptions,Pass,Data Engineering
+CHK-DP016-completeness,DP016,commerce_platform,completeness,zero breaking changes,owner missing,Pass,Analytics Product
+CHK-DP016-schema_drift,DP016,loyalty_system,schema_drift,98 percent,pass,Pass,League Operations
+CHK-DP016-key_uniqueness,DP016,data_warehouse,key_uniqueness,98 percent,2 exceptions,Warning,League Operations
+CHK-DP016-lineage_owner,DP016,loyalty_system,lineage_owner,named accountable owner,2 exceptions,Pass,Fan Data Platform

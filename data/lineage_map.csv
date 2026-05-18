@@ -1,0 +1,65 @@
+product_id,source_system,pipeline_stage,dependency_tier,refresh_cadence,owner,remediation
+DP001,club_crm,ingest,Critical,daily,Club Success,add automated freshness alert
+DP001,club_ticketing,standardize,Critical,daily,Business Intelligence,document metric definition
+DP001,identity_graph,semantic model,Supporting,game week,Club Success,add automated freshness alert
+DP001,data_warehouse,published product,Critical,daily,Data Engineering,confirm source owner
+DP002,game_event_feed,ingest,Critical,weekly,Fan Data Platform,add automated freshness alert
+DP002,tracking_provider,standardize,Supporting,weekly,Club Success,document metric definition
+DP002,official_stats,semantic model,Reference,intra day,Data Engineering,add automated freshness alert
+DP002,data_warehouse,published product,Critical,intra day,Data Engineering,add automated freshness alert
+DP003,fan_identity,ingest,Critical,game week,League Operations,resolve duplicate natural keys
+DP003,email_platform,standardize,Supporting,intra day,Business Intelligence,confirm source owner
+DP003,app_events,semantic model,Supporting,weekly,Fan Data Platform,backfill missing event history
+DP003,data_warehouse,published product,Critical,game week,Fan Data Platform,add automated freshness alert
+DP004,streaming_events,ingest,Critical,daily,Data Engineering,confirm source owner
+DP004,broadcast_logs,standardize,Supporting,weekly,Data Engineering,resolve duplicate natural keys
+DP004,content_catalog,semantic model,Critical,intra day,Club Success,resolve duplicate natural keys
+DP004,data_warehouse,published product,Critical,weekly,League Operations,resolve duplicate natural keys
+DP005,sponsor_assets,ingest,Critical,weekly,Fan Data Platform,add automated freshness alert
+DP005,campaign_delivery,standardize,Critical,intra day,Business Intelligence,document metric definition
+DP005,salesforce,semantic model,Supporting,weekly,Fan Data Platform,backfill missing event history
+DP005,data_warehouse,published product,Critical,weekly,Fan Data Platform,confirm source owner
+DP006,ticketing_platform,ingest,Critical,weekly,Business Intelligence,document metric definition
+DP006,club_crm,standardize,Critical,game week,League Operations,resolve duplicate natural keys
+DP006,secondary_market,semantic model,Critical,intra day,Analytics Product,document metric definition
+DP006,data_warehouse,published product,Critical,daily,Club Success,document metric definition
+DP007,medical_event_feed,ingest,Critical,daily,Analytics Product,confirm source owner
+DP007,tracking_provider,standardize,Reference,game week,Club Success,confirm source owner
+DP007,workflow_tool,semantic model,Supporting,intra day,Data Engineering,document metric definition
+DP007,data_warehouse,published product,Critical,weekly,Analytics Product,backfill missing event history
+DP008,commerce_platform,ingest,Critical,intra day,League Operations,backfill missing event history
+DP008,inventory_feed,standardize,Supporting,intra day,Fan Data Platform,add automated freshness alert
+DP008,loyalty_system,semantic model,Reference,game week,Data Engineering,confirm source owner
+DP008,data_warehouse,published product,Critical,weekly,Analytics Product,resolve duplicate natural keys
+DP009,club_crm,ingest,Critical,intra day,League Operations,backfill missing event history
+DP009,club_ticketing,standardize,Reference,daily,League Operations,confirm source owner
+DP009,identity_graph,semantic model,Supporting,game week,League Operations,resolve duplicate natural keys
+DP009,data_warehouse,published product,Critical,daily,Club Success,resolve duplicate natural keys
+DP010,game_event_feed,ingest,Critical,intra day,Club Success,confirm source owner
+DP010,tracking_provider,standardize,Critical,intra day,Business Intelligence,add automated freshness alert
+DP010,official_stats,semantic model,Critical,weekly,Club Success,backfill missing event history
+DP010,data_warehouse,published product,Critical,intra day,Fan Data Platform,backfill missing event history
+DP011,fan_identity,ingest,Critical,daily,Data Engineering,confirm source owner
+DP011,email_platform,standardize,Reference,intra day,Club Success,document metric definition
+DP011,app_events,semantic model,Critical,game week,Analytics Product,backfill missing event history
+DP011,data_warehouse,published product,Critical,intra day,Data Engineering,confirm source owner
+DP012,streaming_events,ingest,Critical,weekly,Analytics Product,add automated freshness alert
+DP012,broadcast_logs,standardize,Reference,game week,Analytics Product,document metric definition
+DP012,content_catalog,semantic model,Critical,weekly,Business Intelligence,resolve duplicate natural keys
+DP012,data_warehouse,published product,Critical,game week,Analytics Product,backfill missing event history
+DP013,sponsor_assets,ingest,Critical,game week,Data Engineering,document metric definition
+DP013,campaign_delivery,standardize,Critical,intra day,Fan Data Platform,add automated freshness alert
+DP013,salesforce,semantic model,Reference,game week,Fan Data Platform,add automated freshness alert
+DP013,data_warehouse,published product,Critical,intra day,Fan Data Platform,confirm source owner
+DP014,ticketing_platform,ingest,Critical,daily,League Operations,confirm source owner
+DP014,club_crm,standardize,Supporting,weekly,Fan Data Platform,backfill missing event history
+DP014,secondary_market,semantic model,Reference,daily,Business Intelligence,add automated freshness alert
+DP014,data_warehouse,published product,Critical,intra day,Fan Data Platform,confirm source owner
+DP015,medical_event_feed,ingest,Critical,weekly,Analytics Product,resolve duplicate natural keys
+DP015,tracking_provider,standardize,Reference,intra day,Business Intelligence,backfill missing event history
+DP015,workflow_tool,semantic model,Reference,daily,Club Success,resolve duplicate natural keys
+DP015,data_warehouse,published product,Critical,intra day,Club Success,document metric definition
+DP016,commerce_platform,ingest,Critical,game week,Business Intelligence,confirm source owner
+DP016,inventory_feed,standardize,Critical,weekly,Analytics Product,document metric definition
+DP016,loyalty_system,semantic model,Reference,daily,Data Engineering,backfill missing event history
+DP016,data_warehouse,published product,Critical,weekly,Club Success,resolve duplicate natural keys

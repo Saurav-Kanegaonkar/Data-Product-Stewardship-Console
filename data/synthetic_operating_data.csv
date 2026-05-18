@@ -1,5 +1,7 @@
-signal,owner,status,finding,risk
-"Primary signal","Business","Fresh","Strong opportunity","High"
-"Quality check","Analytics","Watch","Definition gap","High"
-"Workflow","Operations","Fresh","Automation candidate","Medium"
-"Readout","Leadership","Fresh","No issue","Low"
+dataset,rows,purpose
+entities.csv,16,sports league data product catalog
+daily_metrics.csv,1920,"daily quality, freshness, adoption, and incident metrics"
+source_events.csv,320,stakeholder escalations and validation events
+requirements_traceability.csv,48,"user stories, acceptance criteria, and release state"
+lineage_map.csv,64,source to product dependency map
+quality_checks.csv,80,data quality control outcomes

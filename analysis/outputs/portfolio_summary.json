@@ -1,0 +1,12 @@
+{
+  "data_products": 16,
+  "daily_metric_rows": 1920,
+  "requirements": 48,
+  "blocked_requirements": 16,
+  "lineage_dependencies": 64,
+  "quality_checks": 80,
+  "failed_quality_checks": 11,
+  "release_ready_products": 0,
+  "top_priority_product": "Player Availability Signal Mart",
+  "top_priority_score": "109.3"
+}

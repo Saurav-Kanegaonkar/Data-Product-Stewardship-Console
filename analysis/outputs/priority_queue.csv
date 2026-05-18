@@ -1,26 +1,17 @@
-entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
-DAT011,Dataset 11,Core,88.79,54.0,80.0,699772
-DAT019,Dataset 19,Core,86.17,54.3,79.3,654116
-DAT024,Dataset 24,Growth,81.25,53.4,80.9,597353
-DAT026,Dataset 26,Core,78.35,53.0,81.7,561821
-DAT030,Dataset 30,Watch,77.71,52.7,80.3,548843
-DAT022,Dataset 22,Core,77.58,47.8,79.3,589068
-DAT018,Dataset 18,Watch,77.50,49.3,81.5,584251
-DAT012,Dataset 12,Watch,76.48,48.9,79.5,562711
-DAT015,Dataset 15,Growth,75.27,49.6,79.0,535267
-DAT013,Dataset 13,Core,74.07,51.2,80.4,509214
-DAT008,Dataset 8,Watch,73.93,51.6,80.9,504915
-DAT002,Dataset 2,Strategic,73.92,53.0,81.9,496634
-DAT009,Dataset 9,Core,73.69,52.2,78.1,481452
-DAT007,Dataset 7,Core,73.61,52.6,80.8,491118
-DAT031,Dataset 31,Growth,72.46,54.7,79.8,447589
-DAT023,Dataset 23,Watch,72.42,51.6,78.5,469819
-DAT027,Dataset 27,Core,72.03,50.5,79.9,483249
-DAT028,Dataset 28,Growth,70.83,51.2,79.5,455877
-DAT017,Dataset 17,Watch,70.74,51.7,79.4,449436
-DAT025,Dataset 25,Core,70.50,47.8,80.7,490199
-DAT006,Dataset 6,Strategic,70.06,50.2,79.5,454134
-DAT005,Dataset 5,Growth,70.05,50.5,81.0,458115
-DAT004,Dataset 4,Watch,69.19,49.9,78.1,435857
-DAT021,Dataset 21,Watch,66.78,48.1,81.1,433875
-DAT032,Dataset 32,Core,66.01,50.7,80.8,395008
+product_id,product_name,domain,owner,criticality,priority_score,readiness_score,avg_quality_score,avg_freshness_sla_pct,avg_stakeholder_adoption,open_requirement_blockers,accepted_requirements,critical_lineage_dependencies,failed_quality_checks,warning_quality_checks,estimated_decision_impact,recommended_quality_lift,effort_points,release_lane
+DP007,Player Availability Signal Mart,Player Health,League Operations,5,109.3,65.8,84.9,84.7,72.5,1,0,2,1,2,1371730,26.6,26,Remediate before release
+DP005,Sponsor Asset Delivery Product,Sponsorship Analytics,Analytics Product,4,108.4,60.5,80.7,92.5,85.3,2,0,3,3,0,1789852,32.0,33,Remediate before release
+DP016,Retail Inventory Exception Feed,Consumer Products,Business Intelligence,4,104.7,58.7,81.0,84.6,87.0,1,1,3,0,1,1350196,22.4,28,Remediate before release
+DP003,Fan Identity Golden Record,Fan Engagement,Fan Data Platform,5,101.8,70.8,81.7,92.8,76.9,1,1,2,1,1,1020334,12.2,21,Validate with stakeholders
+DP012,Cross Platform Content Reach Mart,Media Insights,Data Engineering,4,101.6,68.6,83.0,92.4,56.5,1,0,3,1,3,1952758,34.0,27,Validate with stakeholders
+DP006,Ticket Demand Forecast Feed,Ticketing,Data Engineering,5,101.5,71.4,95.1,91.6,83.8,2,0,4,0,1,1242555,68.4,79,Validate with stakeholders
+DP010,Football Insights Feature Store,Football Operations,Business Intelligence,4,100.0,68.5,80.8,91.1,65.6,0,0,4,0,2,1763173,36.3,38,Validate with stakeholders
+DP014,Club Seat Upgrade Propensity Mart,Ticketing,Club Success,4,99.4,63.3,83.7,83.2,77.3,1,1,2,0,2,1331596,24.6,31,Remediate before release
+DP001,Club Revenue Health Mart,Club Reporting,League Operations,5,94.1,78.7,92.8,92.5,71.4,1,1,3,0,3,1198485,11.7,11,Validate with stakeholders
+DP011,Consumer Journey Activation Mart,Fan Engagement,Analytics Product,3,93.9,61.3,87.7,92.2,77.5,3,0,3,1,2,1732284,17.2,22,Remediate before release
+DP009,Club Executive Scorecard Layer,Club Reporting,Fan Data Platform,3,86.9,61.2,82.4,88.5,66.0,2,0,2,0,1,1018127,21.7,33,Remediate before release
+DP013,Partnership Renewal Evidence Pack,Sponsorship Analytics,League Operations,4,81.6,77.6,86.0,92.4,79.6,0,1,3,0,1,948377,44.9,52,Validate with stakeholders
+DP008,Merchandise Sell Through Mart,Consumer Products,Club Success,3,76.1,75.6,88.2,90.9,65.9,1,1,2,2,0,1421020,56.9,56,Validate with stakeholders
+DP004,Media Engagement Attribution Mart,Media Insights,Business Intelligence,3,74.9,72.6,81.5,91.4,76.3,0,1,3,0,1,913226,24.5,26,Validate with stakeholders
+DP015,Responsible Health Reporting Layer,Player Health,Fan Data Platform,3,68.2,76.6,87.0,86.9,80.0,0,2,2,1,2,777998,28.2,29,Validate with stakeholders
+DP002,Game Operations Readiness Feed,Football Operations,Club Success,4,63.5,90.8,93.1,95.9,86.5,0,1,2,1,0,552382,26.7,43,Validate with stakeholders

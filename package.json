@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "python3 -m http.server 4173",
+    "start": "python3 -m http.server 4174 --bind 127.0.0.1",
+    "generate": "python3 scripts/generate_stewardship_data.py",
     "analyze": "python3 scripts/score_operating_data.py"
   }
 }

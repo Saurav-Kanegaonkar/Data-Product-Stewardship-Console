@@ -1,0 +1,65 @@
+product_name,source_system,pipeline_stage,dependency_tier,refresh_cadence,owner,quality_exceptions,remediation
+Club Revenue Health Mart,club_crm,ingest,Critical,daily,Club Success,0,add automated freshness alert
+Club Revenue Health Mart,club_ticketing,standardize,Critical,daily,Business Intelligence,0,document metric definition
+Club Revenue Health Mart,identity_graph,semantic model,Supporting,game week,Club Success,0,add automated freshness alert
+Club Revenue Health Mart,data_warehouse,published product,Critical,daily,Data Engineering,3,confirm source owner
+Game Operations Readiness Feed,game_event_feed,ingest,Critical,weekly,Fan Data Platform,0,add automated freshness alert
+Game Operations Readiness Feed,tracking_provider,standardize,Supporting,weekly,Club Success,0,document metric definition
+Game Operations Readiness Feed,official_stats,semantic model,Reference,intra day,Data Engineering,1,add automated freshness alert
+Game Operations Readiness Feed,data_warehouse,published product,Critical,intra day,Data Engineering,0,add automated freshness alert
+Fan Identity Golden Record,fan_identity,ingest,Critical,game week,League Operations,1,resolve duplicate natural keys
+Fan Identity Golden Record,email_platform,standardize,Supporting,intra day,Business Intelligence,0,confirm source owner
+Fan Identity Golden Record,app_events,semantic model,Supporting,weekly,Fan Data Platform,1,backfill missing event history
+Fan Identity Golden Record,data_warehouse,published product,Critical,game week,Fan Data Platform,0,add automated freshness alert
+Media Engagement Attribution Mart,streaming_events,ingest,Critical,daily,Data Engineering,0,confirm source owner
+Media Engagement Attribution Mart,broadcast_logs,standardize,Supporting,weekly,Data Engineering,1,resolve duplicate natural keys
+Media Engagement Attribution Mart,content_catalog,semantic model,Critical,intra day,Club Success,0,resolve duplicate natural keys
+Media Engagement Attribution Mart,data_warehouse,published product,Critical,weekly,League Operations,0,resolve duplicate natural keys
+Sponsor Asset Delivery Product,sponsor_assets,ingest,Critical,weekly,Fan Data Platform,0,add automated freshness alert
+Sponsor Asset Delivery Product,campaign_delivery,standardize,Critical,intra day,Business Intelligence,1,document metric definition
+Sponsor Asset Delivery Product,salesforce,semantic model,Supporting,weekly,Fan Data Platform,1,backfill missing event history
+Sponsor Asset Delivery Product,data_warehouse,published product,Critical,weekly,Fan Data Platform,1,confirm source owner
+Ticket Demand Forecast Feed,ticketing_platform,ingest,Critical,weekly,Business Intelligence,1,document metric definition
+Ticket Demand Forecast Feed,club_crm,standardize,Critical,game week,League Operations,0,resolve duplicate natural keys
+Ticket Demand Forecast Feed,secondary_market,semantic model,Critical,intra day,Analytics Product,0,document metric definition
+Ticket Demand Forecast Feed,data_warehouse,published product,Critical,daily,Club Success,0,document metric definition
+Player Availability Signal Mart,medical_event_feed,ingest,Critical,daily,Analytics Product,0,confirm source owner
+Player Availability Signal Mart,tracking_provider,standardize,Reference,game week,Club Success,0,confirm source owner
+Player Availability Signal Mart,workflow_tool,semantic model,Supporting,intra day,Data Engineering,1,document metric definition
+Player Availability Signal Mart,data_warehouse,published product,Critical,weekly,Analytics Product,2,backfill missing event history
+Merchandise Sell Through Mart,commerce_platform,ingest,Critical,intra day,League Operations,0,backfill missing event history
+Merchandise Sell Through Mart,inventory_feed,standardize,Supporting,intra day,Fan Data Platform,0,add automated freshness alert
+Merchandise Sell Through Mart,loyalty_system,semantic model,Reference,game week,Data Engineering,1,confirm source owner
+Merchandise Sell Through Mart,data_warehouse,published product,Critical,weekly,Analytics Product,1,resolve duplicate natural keys
+Club Executive Scorecard Layer,club_crm,ingest,Critical,intra day,League Operations,0,backfill missing event history
+Club Executive Scorecard Layer,club_ticketing,standardize,Reference,daily,League Operations,0,confirm source owner
+Club Executive Scorecard Layer,identity_graph,semantic model,Supporting,game week,League Operations,1,resolve duplicate natural keys
+Club Executive Scorecard Layer,data_warehouse,published product,Critical,daily,Club Success,0,resolve duplicate natural keys
+Football Insights Feature Store,game_event_feed,ingest,Critical,intra day,Club Success,2,confirm source owner
+Football Insights Feature Store,tracking_provider,standardize,Critical,intra day,Business Intelligence,0,add automated freshness alert
+Football Insights Feature Store,official_stats,semantic model,Critical,weekly,Club Success,0,backfill missing event history
+Football Insights Feature Store,data_warehouse,published product,Critical,intra day,Fan Data Platform,0,backfill missing event history
+Consumer Journey Activation Mart,fan_identity,ingest,Critical,daily,Data Engineering,0,confirm source owner
+Consumer Journey Activation Mart,email_platform,standardize,Reference,intra day,Club Success,0,document metric definition
+Consumer Journey Activation Mart,app_events,semantic model,Critical,game week,Analytics Product,2,backfill missing event history
+Consumer Journey Activation Mart,data_warehouse,published product,Critical,intra day,Data Engineering,1,confirm source owner
+Cross Platform Content Reach Mart,streaming_events,ingest,Critical,weekly,Analytics Product,2,add automated freshness alert
+Cross Platform Content Reach Mart,broadcast_logs,standardize,Reference,game week,Analytics Product,0,document metric definition
+Cross Platform Content Reach Mart,content_catalog,semantic model,Critical,weekly,Business Intelligence,0,resolve duplicate natural keys
+Cross Platform Content Reach Mart,data_warehouse,published product,Critical,game week,Analytics Product,2,backfill missing event history
+Partnership Renewal Evidence Pack,sponsor_assets,ingest,Critical,game week,Data Engineering,0,document metric definition
+Partnership Renewal Evidence Pack,campaign_delivery,standardize,Critical,intra day,Fan Data Platform,0,add automated freshness alert
+Partnership Renewal Evidence Pack,salesforce,semantic model,Reference,game week,Fan Data Platform,1,add automated freshness alert
+Partnership Renewal Evidence Pack,data_warehouse,published product,Critical,intra day,Fan Data Platform,0,confirm source owner
+Club Seat Upgrade Propensity Mart,ticketing_platform,ingest,Critical,daily,League Operations,1,confirm source owner
+Club Seat Upgrade Propensity Mart,club_crm,standardize,Supporting,weekly,Fan Data Platform,0,backfill missing event history
+Club Seat Upgrade Propensity Mart,secondary_market,semantic model,Reference,daily,Business Intelligence,0,add automated freshness alert
+Club Seat Upgrade Propensity Mart,data_warehouse,published product,Critical,intra day,Fan Data Platform,1,confirm source owner
+Responsible Health Reporting Layer,medical_event_feed,ingest,Critical,weekly,Analytics Product,0,resolve duplicate natural keys
+Responsible Health Reporting Layer,tracking_provider,standardize,Reference,intra day,Business Intelligence,1,backfill missing event history
+Responsible Health Reporting Layer,workflow_tool,semantic model,Reference,daily,Club Success,0,resolve duplicate natural keys
+Responsible Health Reporting Layer,data_warehouse,published product,Critical,intra day,Club Success,2,document metric definition
+Retail Inventory Exception Feed,commerce_platform,ingest,Critical,game week,Business Intelligence,0,confirm source owner
+Retail Inventory Exception Feed,inventory_feed,standardize,Critical,weekly,Analytics Product,0,document metric definition
+Retail Inventory Exception Feed,loyalty_system,semantic model,Reference,daily,Data Engineering,0,backfill missing event history
+Retail Inventory Exception Feed,data_warehouse,published product,Critical,weekly,Club Success,1,resolve duplicate natural keys
